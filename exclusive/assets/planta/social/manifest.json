@@ -1,0 +1,23 @@
+{
+  "scene": "social-perspectiva-01",
+  "view": "perspective",
+  "width": 5000,
+  "height": 1770,
+  "source": "sala opçãoes.zip",
+  "base": "base-sala.png",
+  "layers": {
+    "piso-cemente-nebbia": "piso-cemente-nebbia.png",
+    "piso-nantes-beige": "piso-nantes-beige.png",
+    "opcao-02": "opcao-02.png",
+    "opcao-03": "opcao-03.png",
+    "euroglass": "euroglass.png"
+  },
+  "configurationMapping": {
+    "social-original": { "layers": ["opcao-02"], "complete": false, "missing": ["esquadria sala-varanda"] },
+    "social-standard": { "layers": ["opcao-02", "euroglass"], "complete": false, "missing": ["esquadria sala-varanda"] },
+    "social-veranda": { "layers": ["euroglass"], "complete": false, "missing": ["parede e vão da porta de alumínio cozinha-varanda"] },
+    "social-full": { "layers": ["opcao-03", "euroglass"], "complete": false, "missing": ["ilha", "remoção visual da bancada da varanda"] }
+  },
+  "supportedTypologies": null,
+  "floorPlan": null
+}

@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-29T19:55:43.291Z",
+  "input": "C:\\citypark-exclusive\\scripts\\fixtures\\importacao-clientes-aplicavel.csv",
+  "summary": {
+    "total": 6,
+    "accepted": 5,
+    "repeated": 1,
+    "pending": 0
+  },
+  "results": [
+    {
+      "line": 2,
+      "status": "repetido",
+      "reason": "vínculo já existe no banco",
+      "data": {
+        "customer_external_ref": "CLI-TESTE-003",
+        "customer_name": "Cliente C",
+        "customer_email": "cliente.c@example.test",
+        "unit_external_ref": "UNI-TESTE-1301A",
+        "unit_code": "1301A",
+        "tower": "Torre Liberty",
+        "floor_number": "13",
+        "termination": "01A",
+        "typology": "3 Quartos",
+        "ownership_role": "owner",
+        "purchase_date": "2026-03-20",
+        "link_external_ref": "VINC-TESTE-003"
+      }
+    },
+    {
+      "line": 3,
+      "status": "aceito",
+      "reason": "novo registro válido",
+      "data": {
+        "customer_external_ref": "CLI-IMPORT-101",
+        "customer_name": "Cliente Importado 101",
+        "customer_email": "importado101@example.test",
+        "unit_external_ref": "UNI-IMPORT-1501A",
+        "unit_code": "1501A",
+        "tower": "Torre Liberty",
+        "floor_number": "15",
+        "termination": "01A",
+        "typology": "3 Quartos",
+        "ownership_role": "owner",
+        "purchase_date": "2026-08-01",
+        "link_external_ref": "VINC-IMPORT-101"
+      }
+    },
+    {
+      "line": 4,
+      "status": "aceito",
+      "reason": "novo registro válido",
+      "data": {
+        "customer_external_ref": "CLI-IMPORT-102",
+        "customer_name": "Cliente Importado 102",
+        "customer_email": "importado102@example.test",
+        "unit_external_ref": "UNI-IMPORT-1502A",
+        "unit_code": "1502A",
+        "tower": "Torre Liberty",
+        "floor_number": "15",
+        "termination": "02A",
+        "typology": "3 Quartos",
+        "ownership_role": "owner",
+        "purchase_date": "2026-08-02",
+        "link_external_ref": "VINC-IMPORT-102"
+      }
+    },
+    {
+      "line": 5,
+      "status": "aceito",
+      "reason": "novo registro válido",
+      "data": {
+        "customer_external_ref": "CLI-IMPORT-103",
+        "customer_name": "Cliente Importado 103",
+        "customer_email": "importado103@example.test",
+        "unit_external_ref": "UNI-IMPORT-1503A",
+        "unit_code": "1503A",
+        "tower": "Torre Liberty",
+        "floor_number": "15",
+        "termination": "03A",
+        "typology": "3 Quartos",
+        "ownership_role": "owner",
+        "purchase_date": "2026-08-03",
+        "link_external_ref": "VINC-IMPORT-103"
+      }
+    },
+    {
+      "line": 6,
+      "status": "aceito",
+      "reason": "novo registro válido",
+      "data": {
+        "customer_external_ref": "CLI-IMPORT-104",
+        "customer_name": "Cliente Importado 104",
+        "customer_email": "importado104@example.test",
+        "unit_external_ref": "UNI-IMPORT-1505A",
+        "unit_code": "1505A",
+        "tower": "Torre Liberty",
+        "floor_number": "15",
+        "termination": "05A",
+        "typology": "3 Quartos",
+        "ownership_role": "owner",
+        "purchase_date": "2026-08-05",
+        "link_external_ref": "VINC-IMPORT-104"
+      }
+    },
+    {
+      "line": 7,
+      "status": "aceito",
+      "reason": "novo registro válido",
+      "data": {
+        "customer_external_ref": "CLI-IMPORT-105",
+        "customer_name": "Cliente Importado 105",
+        "customer_email": "importado105@example.test",
+        "unit_external_ref": "UNI-IMPORT-1505A",
+        "unit_code": "1505A",
+        "tower": "Torre Liberty",
+        "floor_number": "15",
+        "termination": "05A",
+        "typology": "3 Quartos",
+        "ownership_role": "co_owner",
+        "purchase_date": "2026-08-05",
+        "link_external_ref": "VINC-IMPORT-105"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "citypark-exclusive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:local": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "dev:official": "vite --host 127.0.0.1 --mode official --port 5175 --strictPort",
+    "build": "vite build && node scripts/copy-assets.mjs",
+    "build:official": "vite build --mode official && node scripts/copy-assets.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.cjs",
+    "test:db-local": "node scripts/test-db-local.mjs",
+    "db:start": "node scripts/supabase-local.mjs start --network-id citypark-exclusive-local",
+    "db:stop": "node scripts/supabase-local.mjs stop",
+    "db:status": "node scripts/supabase-local.mjs status",
+    "db:seed-local": "node scripts/seed-local.mjs",
+    "db:demo-local": "node scripts/seed-exclusive-demo-local.mjs",
+    "test:idempotency-local": "node scripts/test-idempotency-local.mjs",
+    "import:preview-local": "node scripts/import-preview-local.mjs",
+    "import:register-preview-local": "node scripts/register-import-preview-local.mjs",
+    "import:approve-local": "node scripts/approve-import-batch-local.mjs",
+    "import:apply-local": "node scripts/apply-import-batch-local.mjs",
+    "test:requirements-ui-local": "node scripts/test-requirements-ui-local.mjs",
+    "functions:serve-local": "node scripts/supabase-local.mjs functions serve --network-id citypark-exclusive-local",
+    "test:customizer-layout-local": "node scripts/test-customizer-layout-local.mjs",
+    "test:reminder-worker-local": "node scripts/test-reminder-worker-local.mjs",
+    "auth:email:check": "node scripts/configure-auth-email.mjs --check",
+    "test:first-access-local": "node scripts/test-first-access-local.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.116.0"
+  },
+  "devDependencies": {
+    "supabase": "2.118.0",
+    "vite": "8.3.0"
+  }
+}

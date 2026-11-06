@@ -1,0 +1,13 @@
+{
+  "name": "citypark-unificado-local",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev-local.mjs",
+    "dev:official": "node scripts/dev-local.mjs --official",
+    "test": "node --test tests/*.test.cjs",
+    "dev:exclusive": "npm --prefix exclusive run dev:local",
+    "build:exclusive": "npm --prefix exclusive run build",
+    "build:exclusive:official": "npm --prefix exclusive run build:official",
+    "test:exclusive": "npm --prefix exclusive test"
+  }
+}

@@ -1,0 +1,2 @@
+-- Intentionally empty. Real customers are provisioned by the team.
+-- Local test accounts are created explicitly with scripts/seed-local.mjs.

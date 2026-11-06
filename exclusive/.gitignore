@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.env*
+!.env.example
+!supabase/.env.auth-smtp.example
+supabase/.temp/
+supabase/.branches/
+*.log
+
+# Local source archives, customer documents and generated review projects
+recebidos/
+outputs/
+docs/qa/
+*.zip
+*.rar
+*.7z
+*.rvt
+*.rfa
+*.xlsx
+*.xls
+*.csv
+*.dump
+*.backup
+*.pem
+*.key
